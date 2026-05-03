@@ -12,11 +12,11 @@
   },
   "routes": [
     {
-      "pattern": "erfianugrah.com",
+      "pattern": "junruzhong.com",
       "custom_domain": true,
     },
     {
-      "pattern": "www.erfianugrah.com",
+      "pattern": "www.junruzhong.com",
       "custom_domain": true,
     },
   ],

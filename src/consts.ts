@@ -6,7 +6,7 @@ export const SITE_AUTHOR = "Junru Zhong";
 
 /** CDN base URLs for remote images. */
 export const CDN_FAVICON_URL = "https://static.junruzhong.com/images/favicon.jpg";
-export const CDN_COVER_IMAGE_URL = "https://image.erfi.io/tenhult_3.jpg";
+export const CDN_COVER_IMAGE_URL = "https://static.junruzhong.com/images/junru-portrait.jpg";
 
 /** Social media links. */
 export const SOCIAL_LINKS = {
