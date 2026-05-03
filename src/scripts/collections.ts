@@ -10,7 +10,6 @@ export type CollectionName =
   | "muses"
   | "short_form"
   | "long_form"
-  | "zeitweilig"
   | "authors"
   | "cv";
 

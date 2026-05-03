@@ -7,7 +7,6 @@ function handlePageLoad(): void {
     "short_form",
     "long_form",
     "muses",
-    "zeitweilig",
     "authors",
   ];
   // Normalize path by stripping leading/trailing slashes

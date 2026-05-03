@@ -30,7 +30,6 @@ const COLLECTIONS = {
   muses: { complex: [] },
   short_form: { complex: [] },
   long_form: { complex: [] },
-  zeitweilig: { complex: [] },
   authors: { complex: [] },
   cv: {
     complex: [

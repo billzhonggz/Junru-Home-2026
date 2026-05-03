@@ -25,7 +25,6 @@ const KNOWN_COLLECTIONS = [
   "muses",
   "short_form",
   "long_form",
-  "zeitweilig",
   "authors",
   "cv",
 ];
