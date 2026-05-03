@@ -44,11 +44,6 @@ const long_form = defineCollection({
   schema: baseSchema,
 });
 
-const zeitweilig = defineCollection({
-  loader: glob({ pattern: "**/[^_]*.mdx", base: "./src/content/zeitweilig" }),
-  schema: baseSchema,
-});
-
 const authors = defineCollection({
   loader: glob({ pattern: "**/[^_]*.mdx", base: "./src/content/authors" }),
   schema: baseSchema,
@@ -140,7 +135,6 @@ export const collections = {
   muses,
   short_form,
   long_form,
-  zeitweilig,
   authors,
   cv,
 };

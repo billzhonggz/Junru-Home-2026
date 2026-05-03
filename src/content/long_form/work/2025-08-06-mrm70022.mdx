@@ -21,8 +21,6 @@ We gave this work a very long title: **Utilizing 3D fast spin echo anatomical im
 
 This work was submitted to the top journal in the MRI community, **Magnetic Resonance in Medicine**, in February 2025, accepted in July of the same year, and officially published online a few days ago. If you don't want to read my ramblings, you can click "Read more" at the end of the article to go directly to the paper. Thanks to the sponsorship of the university library, this paper is now Open Access, so everyone can view and download it freely [here](https://onlinelibrary.wiley.com/doi/full/10.1002/mrm.70022).
 
-![]([images](https://static.junruzhong.com/images/2025-08-06-mrm70022//MRM-Paper_Paper-Title.png)
-
 # Background
 
 The background of this work originates from my PhD supervisor Professor Weitian Chen's early career experience in the industry—they hoped to achieve **simultaneous** high-resolution knee anatomical and T1rho imaging through a 3D fast spin echo sequence (3D FSE/TSE). This goal, it can be said, has not yet been fully realized even at the time of this paper's publication. The main challenge is that T1rho imaging typically requires acquiring multiple (usually 4) spin-lock prepared images, which are then used to fit a signal model. One T1rho imaging method recommended by the RSNA, 3D MAPSS based on gradient echo imaging (GRE), can complete a T1rho acquisition in 5-12 minutes \[1\]. Although this is not slow, we believe there is still an issue: T1rho itself is an **additional** knee acquisition sequence. It doesn't do anything more on its own and is an extra time burden for the entire knee scan. In contrast, the 3D FSE-based T1rho acquisition method our group has been developing long-term has image features similar to proton density (PD) at a time of spin-lock (TSL) of 0, which is similar to the clinically acquired PD-w FSE images.
@@ -99,7 +97,7 @@ To address these three questions, we designed three experiments. These experimen
 
 ## Experiment 1: Input Data
 
-![]([images](https://static.junruzhong.com/images/2025-08-06-mrm70022//MRM-Paper_I0-Ik-Combo.png)
+![](https://static.junruzhong.com/images/2025-08-06-mrm70022//MRM-Paper_I0-Ik-Combo.png)
 
 As shown in the table above, we have a total of 6 input data combinations, corresponding to the PD-w and TSL=0 T1rho images, and 3 T1rho images with non-zero TSLs. In this experiment, to exclude the influence of the model on the results, we only compare the results from the model with the lowest RPE (best performance) for each input data combination.
 
