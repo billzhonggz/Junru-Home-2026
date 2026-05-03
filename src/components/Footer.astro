@@ -7,14 +7,10 @@ import { SITE_AUTHOR, SOCIAL_LINKS } from "../consts";
 <footer
   class="md:flex md:justify-between md:items-center md:align-center font-overpass-mono w-full md:h-full mt-12"
 >
-  <div class="text-[12px] text-center items-center flex justify-center">
-    &copy; {today.getFullYear()} {SITE_AUTHOR}. All rights reserved.
+  <div class="text-[12px] text-center">
+    &copy; {today.getFullYear()} {SITE_AUTHOR}. All rights reserved. Built with <a href="https://astro.build/" target="_blank" rel="noopener noreferrer" class="underline">astro</a> &amp; <a href="https://github.com/erfianugrah/revista-3" target="_blank" rel="noopener noreferrer" class="underline">revista</a>.
   </div>
   <div class="flex justify-center gap-3 m-2 sm:m-0">
-    <a href={SOCIAL_LINKS.mastodon} target="_blank" rel="noopener noreferrer">
-      <span class="sr-only">Follow Erfi on Mastodon</span>
-      <Icon name="mdi:mastodon" class="h-[20px] w-[20px]" />
-    </a>
     <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer">
       <span class="sr-only">Go to Erfi's GitHub repo</span>
       <Icon name="mdi:github" class="h-[20px] w-[20px]" />

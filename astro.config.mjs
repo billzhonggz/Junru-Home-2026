@@ -25,7 +25,7 @@ export default defineConfig({
   base: process.env.GITHUB_PAGES === "true" ? "/revista-3" : undefined,
 
   image: {
-    domains: ["erfianugrah.com", "image.erfi.io"],
+    domains: ["erfianugrah.com", "image.erfi.io", "static.junruzhong.com"],
     service: isDev
       ? { entrypoint: "astro/assets/services/noop" }
       : hqService({
